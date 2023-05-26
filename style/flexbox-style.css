@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+li:hover{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}

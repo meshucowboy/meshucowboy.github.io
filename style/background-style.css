@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--light: #ddd;
+	--dark: #333;
+}
+#container{
+    background-color: rgb(245, 235, 235);
+	padding: 100px;
+}
+
+h2{
+	font-family: cursive;
+}
+
+h2:hover{
+	font-family: cursive;
+}
+
+a:hover{
+	color: rgb(4, 85, 4);
+}
+
+ul{
+	display: none;
+	position:absolute;
+	list-style: none;
+}
+li{
+	background-color: rgb(63, 200, 141);
+	border: #e0d6e1;
+	width: 130px;
+	height: 40px;
+	border-radius: 5px;
+	border: 5px;
+	margin: 1px;
+	position: relative;
+	padding-top: 5px;
+	text-align: center;
+}
+.skills:hover ul{
+	display: block;
+	
+}
+.projects:hover ul{
+	display: block;
+	font-size: smaller;
+}
+a{
+	text-decoration: none;
+}
+.home h2 a{
+	font-style: italic;
+	color: rgb(4, 85, 4);
+}
+
+.div-port{
+    color: rgb(87, 19, 197);
+    background-color: rgb(229, 233, 206);
+    border-radius: 5px;
+    border: 5px;
+}
+.fb{
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border:2px;
+	border-radius:20px;
+}
+
+.git{
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border: 2px;
+	border-radius:20px;
+}
+
+.lin{
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border:2px;
+	border-radius: 20px;
+}
+.footer-bottom{
+	text-align: center;
+}
+.footer-copyright{
+	padding-top: 20px;
+	color: antiquewhite;
+}
