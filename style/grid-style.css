@@ -2,7 +2,7 @@
 #main{
     display: grid;
     grid-template-columns: 70% 29%;
-    height: 560px;
+    height: 100%;
     width: 100%;
     background-color: burlywood;
     padding: 1%;
@@ -95,13 +95,8 @@
     grid-template-rows: 60% 30%;
     width: 100%;
     grid-area: 3/1/4/4;
-<<<<<<< HEAD
     color:antiquewhite;
     background-color: blue;
-=======
-    color: red;
-    background-color: rgb(141, 237, 132);
->>>>>>> 5683645eb756a963992b4b39fef5d82748ed4854
     height: 100%;
     justify-content: center;
     border-radius: 5px;
